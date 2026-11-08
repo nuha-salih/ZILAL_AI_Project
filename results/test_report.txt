@@ -1,0 +1,47 @@
+test_check_env_runs (tests.test_imports.TestImports.test_check_env_runs) ... ok
+test_colab_command_flags (tests.test_imports.TestImports.test_colab_command_flags) ... ok
+test_core_modules_import (tests.test_imports.TestImports.test_core_modules_import) ... ok
+test_no_insecure_config_file_left (tests.test_imports.TestImports.test_no_insecure_config_file_left) ... ok
+test_energy_matches_cooling_power (tests.test_strategies.TestFairComparison.test_energy_matches_cooling_power) ... ok
+test_identical_conditions (tests.test_strategies.TestFairComparison.test_identical_conditions) ... ok
+test_trajectory_obeys_rc_equation (tests.test_strategies.TestFairComparison.test_trajectory_obeys_rc_equation) ... ok
+test_does_not_affect_core_simulation (tests.test_strategies.TestGreenChallengeIsolated.test_does_not_affect_core_simulation) ... ok
+test_ranking_uses_normalized_improvement_and_comfort (tests.test_strategies.TestGreenChallengeIsolated.test_ranking_uses_normalized_improvement_and_comfort) ... ok
+test_comfort_violation_counts_only_occupied_steps (tests.test_strategies.TestMetrics.test_comfort_violation_counts_only_occupied_steps) ... ok
+test_cop_sensitivity_monotonic (tests.test_strategies.TestMetrics.test_cop_sensitivity_monotonic) ... ok
+test_unnecessary_energy_excludes_precondition_window (tests.test_strategies.TestMetrics.test_unnecessary_energy_excludes_precondition_window) ... ok
+test_invalid_scenario_and_params_rejected (tests.test_strategies.TestRecommendationsAndSweep.test_invalid_scenario_and_params_rejected) ... ok
+test_recommendations_nonempty_and_numeric_backed (tests.test_strategies.TestRecommendationsAndSweep.test_recommendations_nonempty_and_numeric_backed) ... ok
+test_shading_sweep_monotonic (tests.test_strategies.TestRecommendationsAndSweep.test_shading_sweep_monotonic) ... ok
+test_saving_formula (tests.test_strategies.TestSavings.test_saving_formula) ... ok
+test_summary_savings_consistent (tests.test_strategies.TestSavings.test_summary_savings_consistent) ... ok
+test_zero_baseline_safe (tests.test_strategies.TestSavings.test_zero_baseline_safe) ... ok
+test_empty_room_fixed_wastes_energy (tests.test_strategies.TestStrategiesBehaviour.test_empty_room_fixed_wastes_energy) ... ok
+test_predictive_arrival_temperature_near_target (tests.test_strategies.TestStrategiesBehaviour.test_predictive_arrival_temperature_near_target) ... ok
+test_prelecture_predictive_keeps_comfort_rule_based_fails (tests.test_strategies.TestStrategiesBehaviour.test_prelecture_predictive_keeps_comfort_rule_based_fails) ... ok
+test_required_cooling_formula_exact (tests.test_strategies.TestStrategiesBehaviour.test_required_cooling_formula_exact) ... ok
+test_strategy_config_validation (tests.test_strategies.TestStrategiesBehaviour.test_strategy_config_validation) ... ok
+test_surrogate_trains_and_is_labelled (tests.test_strategies.TestSurrogate.test_surrogate_trains_and_is_labelled) ... ok
+test_cooling_clipped_nonnegative_and_capped (tests.test_thermal_model.TestPhysics.test_cooling_clipped_nonnegative_and_capped) ... ok
+test_deadbeat_target_reaches_setpoint (tests.test_thermal_model.TestPhysics.test_deadbeat_target_reaches_setpoint) ... ok
+test_euler_step_matches_equation (tests.test_thermal_model.TestPhysics.test_euler_step_matches_equation) ... ok
+test_facade_irradiance_zero_at_night (tests.test_thermal_model.TestPhysics.test_facade_irradiance_zero_at_night) ... ok
+test_free_float_energy_conservation_steady_state (tests.test_thermal_model.TestPhysics.test_free_float_energy_conservation_steady_state) ... ok
+test_higher_cop_reduces_energy_same_cooling (tests.test_thermal_model.TestPhysics.test_higher_cop_reduces_energy_same_cooling) ... ok
+test_increasing_shading_reduces_solar_gain (tests.test_thermal_model.TestPhysics.test_increasing_shading_reduces_solar_gain) ... ok
+test_more_cooling_gives_lower_indoor_temperature (tests.test_thermal_model.TestPhysics.test_more_cooling_gives_lower_indoor_temperature) ... ok
+test_occupancy_changes_internal_gain (tests.test_thermal_model.TestPhysics.test_occupancy_changes_internal_gain) ... ok
+test_orientation_changes_exposure_profile (tests.test_thermal_model.TestPhysics.test_orientation_changes_exposure_profile) ... ok
+test_solar_gain_formula_and_shading (tests.test_thermal_model.TestPhysics.test_solar_gain_formula_and_shading) ... ok
+test_defaults_valid (tests.test_thermal_model.TestValidation.test_defaults_valid) ... ok
+test_invalid_inputs_rejected (tests.test_thermal_model.TestValidation.test_invalid_inputs_rejected) ... ok
+test_hourly_data_resampled (tests.test_thermal_model.TestWeather.test_hourly_data_resampled) ... ok
+test_invalid_values_graceful (tests.test_thermal_model.TestWeather.test_invalid_values_graceful) ... ok
+test_missing_columns_graceful (tests.test_thermal_model.TestWeather.test_missing_columns_graceful) ... ok
+test_sample_csv_loads (tests.test_thermal_model.TestWeather.test_sample_csv_loads) ... ok
+test_slice_requires_coverage (tests.test_thermal_model.TestWeather.test_slice_requires_coverage) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 1.498s
+
+OK
